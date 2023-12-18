@@ -1,0 +1,98 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.backgroundTop {
+  width: 100%;
+  height: 70vh;
+  background-image: linear-gradient(to top, black 20%, rgba(0, 0, 0, 0) 65%),
+    url("../images/background-drive.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+}
+
+.mainInfos {
+  background-color: white;
+  width: 50vw;
+  height: 40vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-top: -20vh;
+}
+
+.textInfos {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.textInfos p {
+  line-height: 1.4;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainInfos h1 {
+  font-weight: 700;
+}
+
+.mapContainer {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.googleMap {
+  background-image: url("../images/map.png");
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-self: center;
+}
+
+.moreInfos {
+  display: flex;
+  flex-direction: row;
+  margin-top: -25px;
+}
+
+.moreInfoCard {
+  width: 300px;
+  margin: 0 20px;
+  background-color: rgb(13, 13, 13);
+  color: white;
+}
+
+.imageInfo {
+  width: 100%;
+  height: 190px;
+}
+
+.moreInfoCard h3 {
+  font-size: 22px;
+}
+
+.moreInfoCard p {
+  font-size: 12px;
+  margin-top: 5px;
+  line-height: 1.6;
+}
+
+.contentMoreInfo {
+  padding: 10px 25px;
+}

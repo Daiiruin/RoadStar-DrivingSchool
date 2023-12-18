@@ -1,0 +1,46 @@
+.headerContainer {
+  position: absolute;
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.rightHeader {
+  display: flex;
+  align-items: center;
+}
+
+.primaryButton {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  margin: 0 10px;
+  border: 2px solid black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.secondaryButton {
+  background-color: transparent;
+  color: black;
+  padding: 15px;
+  margin: 0 10px;
+  border: 2px solid black;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+}
+
+.secondaryButton p {
+  margin-right: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  margin: 0 20px;
+  font-weight: bold;
+}
